@@ -1,0 +1,11 @@
+{
+  "input_video": "15sec_input_720p.mp4",
+  "output_directory": "output/",
+  "total_frames": 375,
+  "total_detections": 4490,
+  "max_concurrent_tracks": 36,
+  "avg_processing_time": 0.09894966697692871,
+  "avg_fps": 10.106148212031496,
+  "video_saved": true,
+  "data_saved": true
+}
