@@ -105,3 +105,13 @@ python main.py --input 15sec_input_720p.mp4 --model best.pt --output output/
 - Advanced appearance modeling
 - Real-time processing optimization
 - Integration with sports analytics platforms
+
+## 📄 Project Report
+
+You can view the full project report [here](report.md), which includes:
+
+- Approach and methodology
+- Techniques tried and their outcomes
+- Challenges encountered
+- Future improvements and next steps
+
