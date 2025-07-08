@@ -30,12 +30,23 @@ Given a 15-second sports video clip, the system should:
 ├── detection.py             # YOLOv11 detection wrapper
 ├── utils.py                 # Utility functions
 ├── config.py                # Configuration parameters
-├── best.pt                  # YOLOv11 model weights
 ├── 15sec_input_720p.mp4     # Input video
 └── output/                  # Output directory for results
     ├── tracked_video.mp4    # Video with tracking visualization
     └── tracking_results.json # Tracking data
 ```
+
+## Model Download
+
+**Important:** The YOLOv11 model file (`best.pt`) is not included in this repository due to GitHub's file size limits (186MB > 100MB limit).
+
+To run this project, you need to:
+
+1. **Download the model file** from: [YOLOv11 Model (best.pt)](https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view)
+2. **Place `best.pt` in the project root directory** (same level as `main.py`)
+3. **Ensure the file is named exactly `best.pt`**
+
+The model file is the same YOLOv11 model provided in the original assignment materials.
 
 ## Setup Instructions
 
@@ -93,5 +104,4 @@ python main.py --input 15sec_input_720p.mp4 --model best.pt --output output/
 - Multi-camera support
 - Advanced appearance modeling
 - Real-time processing optimization
-- Integration with sports analytics platforms
 - Integration with sports analytics platforms
